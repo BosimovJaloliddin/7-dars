@@ -1,0 +1,132 @@
+body {
+  font-family: sans-serif;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+/*main style*/
+h1 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+li {
+  display: inline-block;
+}
+a {
+  font-size: 0.8rem;
+  font-weight: 100;
+  color: #fff;
+  padding-right: 1.4rem;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+button {
+  font-size: 0.8rem;
+  font-weight: 100;
+  width: 90px;
+  padding: 0.5rem;
+  color: #fff;
+  text-transform: capitalize;
+  background-color: rgb(0, 126, 163);
+  border-radius: 30px;
+}
+/*navigation style one*/
+.navigation-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 4rem;
+  background-color: rgb(36, 36, 42);
+  box-shadow: 0 0 10px 1px #888;
+}
+
+/*navigation style two*/
+.navigation-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 4rem;
+  margin-top: 2rem;
+  background-color: rgb(36, 36, 42);
+  box-shadow: 0 0 10px 1px #888;
+}
+
+/*navigation style two*/
+.navigation-there {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 4rem;
+  margin-top: 2rem;
+  background-color: rgb(36, 36, 42);
+  box-shadow: 0 0 10px 1px #888;
+}
+
+/*box*/
+.header {
+  font-size: 1rem;
+  font-weight: 540;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(253, 219, 0);
+  margin-bottom: 10px;
+}
+.one-div {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.navigation {
+  font-size: 1rem;
+  font-weight: 540;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  background-color: rgb(253, 219, 0);
+  height: 210px;
+  flex-grow: 1;
+}
+.two-div {
+  flex-grow: 6;
+}
+.there-div {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.article {
+  font-size: 1rem;
+  font-weight: 540;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  background-color: rgb(253, 219, 0);
+  height: 100px;
+  flex-grow: 8;
+}
+.ads {
+  font-size: 1rem;
+  font-weight: 540;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  background-color: rgb(253, 219, 0);
+  height: 100px;
+  flex-grow: 1;
+}
+.footer {
+  font-size: 1rem;
+  font-weight: 540;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  background-color: rgb(253, 219, 0);
+  height: 100px;
+}
